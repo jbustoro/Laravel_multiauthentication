@@ -14,6 +14,7 @@ return [
     */
 
     'failed' => 'These credentials do not match our records.',
+    'unverified' => 'Your account is not verfied',
     'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
 
 ];
