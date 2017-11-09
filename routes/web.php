@@ -34,3 +34,7 @@ Route::prefix('admin')->group(function() {
 });
 
 Route::get('/verifyemail/{token}', 'Auth\RegisterController@verify');
+
+Route::get('showSession', function () {
+    return view('showSession');
+});
